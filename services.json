@@ -1,17 +1,20 @@
 [
     {
-        "elasticsearch":{
+        "name":"elasticsearch",
+        "defs":{
             "compose":"https://raw.githubusercontent.com/drud/ddev-contrib/master/docker-compose-services/elasticsearch/docker-compose.elasticsearch.yaml"
         }
     },
     {
-        "mongo":{
+        "name":"mongo",
+        "defs":{
             "compose":"https://raw.githubusercontent.com/drud/ddev-contrib/master/docker-compose-services/mongodb/docker-compose.mongo.yaml",
             "web-build/Dockerfile":"https://raw.githubusercontent.com/drud/ddev-contrib/master/docker-compose-services/mongodb/Dockerfile"
         }
     },
     {
-        "blackfire":{
+        "name":"mongo",
+        "defs":{
             "compose":"https://raw.githubusercontent.com/drud/ddev-contrib/master/docker-compose-services/blackfire/docker-compose.blackfire.yaml",
             "php/blackfire.ini":"https://raw.githubusercontent.com/drud/ddev-contrib/master/docker-compose-services/blackfire/php/blackfire.ini",
             "message":"This is a message to display after adding the service"
