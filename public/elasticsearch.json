@@ -1,0 +1,4 @@
+    {
+        "name":"elasticsearch",
+        "compose":"https://raw.githubusercontent.com/drud/ddev-contrib/master/docker-compose-services/elasticsearch/docker-compose.elasticsearch.yaml"
+    }
